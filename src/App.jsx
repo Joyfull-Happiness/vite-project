@@ -1,10 +1,12 @@
 import "./App.css";
 function App() {
-  const [count, setCount] = useState(0);
+  const user = "Synthia";
 
   return (
     <>
-      <h1>Hello, Lajoie</h1>
+      <h1>Hello, {user}</h1>
+      <p>The sum of 2 +2 is: 4</p>
+      <p>A mesage to future me: </p>
     </>
   );
 }
